@@ -2,4 +2,5 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
+*/[Ll]ibrary/
+The Nightmare Before Christmas/.DS_Store

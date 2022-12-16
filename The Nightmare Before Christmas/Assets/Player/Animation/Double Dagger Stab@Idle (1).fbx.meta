@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 3a3ef4da5cb584bb2803e867db2c1fff
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  - first:
+      74: 6737066235702920824
+    second: mixamo.com //// mixamorig:Hips
+  - first:
+      74: 8925771879300337558
+    second: mixamo.com //// mixamorig:Spine
+  - first:
+      74: -2060851444613671225
+    second: mixamo.com //// mixamorig:Spine1
+  - first:
+      74: -4622125318804742396
+    second: mixamo.com //// mixamorig:Spine2
+  - first:
+      74: -8137168458168340709
+    second: mixamo.com //// mixamorig:Neck
+  - first:
+      74: -4233903188698999258
+    second: mixamo.com //// mixamorig:Head
+  - first:
+      74: 8826432529752788565
+    second: mixamo.com //// mixamorig:LeftShoulder
+  - first:
+      74: -6891624541085834322
+    second: mixamo.com //// mixamorig:LeftArm
+  - first:
+      74: 8307482396099442057
+    second: mixamo.com //// mixamorig:LeftForeArm
+  - first:
+      74: 7320949042629177414
+    second: mixamo.com //// mixamorig:LeftHand
+  - first:
+      74: -4231967022566070350
+    second: mixamo.com //// mixamorig:LeftHandThumb1
+  - first:
+      74: -1849518634930489587
+    second: mixamo.com //// mixamorig:LeftHandThumb2
+  - first:
+      74: -2880313529898748080
+    second: mixamo.com //// mixamorig:LeftHandThumb3
+  - first:
+      74: -8028746546266631368
+    second: mixamo.com //// mixamorig:LeftHandIndex1
+  - first:
+      74: 9101496435010224109
+    second: mixamo.com //// mixamorig:LeftHandIndex2
+  - first:
+      74: -5190461723410935278
+    second: mixamo.com //// mixamorig:LeftHandIndex3
+  - first:
+      74: -7746378774258231011
+    second: mixamo.com //// mixamorig:LeftHandMiddle1
+  - first:
+      74: -6196636162737081960
+    second: mixamo.com //// mixamorig:LeftHandMiddle2
+  - first:
+      74: 1392851851634877550
+    second: mixamo.com //// mixamorig:LeftHandMiddle3
+  - first:
+      74: -7599521558276666487
+    second: mixamo.com //// mixamorig:LeftHandRing1
+  - first:
+      74: 5052412623200605425
+    second: mixamo.com //// mixamorig:LeftHandRing2
+  - first:
+      74: -6961455543275634805
+    second: mixamo.com //// mixamorig:LeftHandRing3
+  - first:
+      74: -1409552683632757623
+    second: mixamo.com //// mixamorig:LeftHandPinky1
+  - first:
+      74: -5702756157271466701
+    second: mixamo.com //// mixamorig:LeftHandPinky2
+  - first:
+      74: -4771697857050493701
+    second: mixamo.com //// mixamorig:LeftHandPinky3
+  - first:
+      74: 3968752342076438803
+    second: mixamo.com //// mixamorig:RightShoulder
+  - first:
+      74: -2376210392017734027
+    second: mixamo.com //// mixamorig:RightArm
+  - first:
+      74: 8580859577527475004
+    second: mixamo.com //// mixamorig:RightForeArm
+  - first:
+      74: 314291420981534802
+    second: mixamo.com //// mixamorig:RightHand
+  - first:
+      74: 5748929261017122209
+    second: mixamo.com //// mixamorig:RightHandThumb1
+  - first:
+      74: 5178681021978495688
+    second: mixamo.com //// mixamorig:RightHandThumb2
+  - first:
+      74: -9086152613222051872
+    second: mixamo.com //// mixamorig:RightHandThumb3
+  - first:
+      74: 1663806559665596980
+    second: mixamo.com //// mixamorig:RightHandIndex1
+  - first:
+      74: -5308649446064110649
+    second: mixamo.com //// mixamorig:RightHandIndex2
+  - first:
+      74: -2913019080508486313
+    second: mixamo.com //// mixamorig:RightHandIndex3
+  - first:
+      74: -2929775697665991984
+    second: mixamo.com //// mixamorig:RightHandMiddle1
+  - first:
+      74: -8962308202786791743
+    second: mixamo.com //// mixamorig:RightHandMiddle2
+  - first:
+      74: 2476739735483333946
+    second: mixamo.com //// mixamorig:RightHandMiddle3
+  - first:
+      74: -2841912673688896122
+    second: mixamo.com //// mixamorig:RightHandRing1
+  - first:
+      74: 7505966702726519502
+    second: mixamo.com //// mixamorig:RightHandRing2
+  - first:
+      74: -6927981470746545909
+    second: mixamo.com //// mixamorig:RightHandRing3
+  - first:
+      74: -7461800572941547719
+    second: mixamo.com //// mixamorig:RightHandPinky1
+  - first:
+      74: 5785845281808489302
+    second: mixamo.com //// mixamorig:RightHandPinky2
+  - first:
+      74: 5368985702775548617
+    second: mixamo.com //// mixamorig:RightHandPinky3
+  - first:
+      74: 8207866212065505148
+    second: mixamo.com //// mixamorig:LeftUpLeg
+  - first:
+      74: 64650264700003515
+    second: mixamo.com //// mixamorig:LeftLeg
+  - first:
+      74: -4083271317500510989
+    second: mixamo.com //// mixamorig:LeftFoot
+  - first:
+      74: -177258070446668020
+    second: mixamo.com //// mixamorig:LeftToeBase
+  - first:
+      74: 6443192530225451909
+    second: mixamo.com //// mixamorig:RightUpLeg
+  - first:
+      74: -1200654848697523405
+    second: mixamo.com //// mixamorig:RightLeg
+  - first:
+      74: 5579116632862139282
+    second: mixamo.com //// mixamorig:RightFoot
+  - first:
+      74: -1581031417438363123
+    second: mixamo.com //// mixamorig:RightToeBase
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
