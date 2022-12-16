@@ -305,8 +305,8 @@ Animation:
   m_Animations:
   - {fileID: -203655887218126122, guid: 3a3ef4da5cb584bb2803e867db2c1fff, type: 3}
   - {fileID: -203655887218126122, guid: 2554fc02ff55042c0977f6930a3340d0, type: 3}
-  - {fileID: -203655887218126122, guid: 1d538db9fa15b48748c714f5b04f4dcb, type: 3}
-  - {fileID: -203655887218126122, guid: 132de054f570f4304a9b55846cab8cb2, type: 3}
+  - {fileID: -203655887218126122, guid: 4bf9f92f950074915bcda472b2f750a7, type: 3}
+  - {fileID: -203655887218126122, guid: 5e6bab89429eb4dd1b5b3387e1325a77, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0

@@ -1,9 +1,15 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerCtrl : MonoBehaviour
 {
+    // 해당 클래스에서 사용하는 상수 정의
+    string idleMotionName = "Idle (1)";
+    string walkingMotionName = "Walking";
+    string walkingLeftMotionName = "Strafe Left";
+    string walkingRightMotionName = "Strafe Right";
+
     // 이동 속도 변수
     public float moveSpeed = 6.0f;
 
@@ -15,6 +21,7 @@ public class PlayerCtrl : MonoBehaviour
 
     // 점프하는 힘을 저장하기 위한 변수
     public float power = 10;
+
     // 강체를 저장할 변수
     Rigidbody rb;
 
@@ -46,12 +53,21 @@ public class PlayerCtrl : MonoBehaviour
 
         // 키보드 입력값을 기준으로 동작할 애니메이션 수행
         if (v >= 0.1f || v <= -0.1f) // 전진하거나 후진할 경우
-		{
-            anim.CrossFade("Walking", 0.3f); // 달리기 애니메이션
-		} else
-		{
-            anim.CrossFade("Idle (1)", 0.3f); // 정지 시 Idle 애니메이션
-		}
+        {
+            anim.CrossFade(walkingMotionName, 0.3f); // 걷기 애니메이션
+        }
+        else if (h >= 0.1f)
+        {
+            anim.CrossFade(walkingRightMotionName, 0.3f); // 오른쪽으로 걷기 애니메이션
+        }
+        else if (h <= -0.1f)
+        {
+            anim.CrossFade(walkingLeftMotionName, 0.3f); // 왼쪽으로 걷기 애니메이션
+        }
+        else
+        {
+            anim.CrossFade(idleMotionName, 0.3f); // 정지 시 Idle 애니메이션
+        }
 
         // 정지 상태이고, 스페이스바(점프)를 누르면
         if (Input.GetButtonDown("Jump"))
