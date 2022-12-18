@@ -36,19 +36,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/madilyn/Documents/GitHub/2022-SWU-3DProgramming-Project/JungJungbin-Project/Assets/Sources/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll" />
-  </ItemGroup>
-  <ItemGroup>
-     <Compile Include="Assets/Sources/EffectExamples/TutorialInfo/Scripts/Readme.cs" />
      <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/ExtinguishableFire.cs" />
-     <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/DecalDestroyer.cs" />
-     <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/ParticleCollision.cs" />
-     <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/GunShoot.cs" />
-     <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/GunAim.cs" />
-     <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/ParticleExamples.cs" />
      <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/ParticleMenu.cs" />
-     <Compile Include="Assets/Player/BulletCtrl.cs" />
+     <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/DecalDestroyer.cs" />
+     <Compile Include="Assets/Sources/EffectExamples/TutorialInfo/Scripts/Readme.cs" />
+     <Compile Include="Assets/Player/Bullet/BulletCtrl.cs" />
+     <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/ParticleExamples.cs" />
+     <Compile Include="Assets/Fake Santa/FakeSantaAI.cs" />
+     <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/ParticleCollision.cs" />
+     <Compile Include="Assets/Real Santa/RealSantaMoveAgent.cs" />
+     <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/GunShoot.cs" />
+     <Compile Include="Assets/Fake Santa/FakeSantaMoveAgent.cs" />
+     <Compile Include="Assets/Player/Bullet/RemoveBullet.cs" />
+     <Compile Include="Assets/Player/FireCtrl.cs" />
      <Compile Include="Assets/Player/PlayerCtrl.cs" />
+     <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/GunAim.cs" />
+     <Compile Include="Assets/Scripts/GameManager.cs" />
      <None Include="Assets/Sources/Free Voxel Christmas Pack/Documentation.txt" />
      <None Include="Assets/Sources/Santa Claus/readme.txt" />
      <None Include="Assets/Sources/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader" />

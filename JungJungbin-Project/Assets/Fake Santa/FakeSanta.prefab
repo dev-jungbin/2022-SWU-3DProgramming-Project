@@ -2712,9 +2712,12 @@ GameObject:
   - component: {fileID: 4751922330993925962}
   - component: {fileID: 3420549815832359472}
   - component: {fileID: -402264419416216859}
+  - component: {fileID: 3179318220422152477}
+  - component: {fileID: 5237736637757909956}
+  - component: {fileID: 8869329545245021257}
   m_Layer: 7
   m_Name: FakeSanta
-  m_TagString: Santa
+  m_TagString: FAKESANTA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2748,7 +2751,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 6d5a67e58942048dd8344050a6e6b48c, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -2768,6 +2771,56 @@ CapsuleCollider:
   m_Height: 1.9378002
   m_Direction: 1
   m_Center: {x: 0, y: 0.96754277, z: -0.06686488}
+--- !u!195 &3179318220422152477
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8622530670846373209}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 0
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: -0.08
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &5237736637757909956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8622530670846373209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e374a9fd2a1145ea862d61e1342ca40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  isDie: 0
+--- !u!114 &8869329545245021257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8622530670846373209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b0ca0df8e5740f5828ce708fcae9f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wayPoints: []
+  nextIdx: 0
 --- !u!1 &8623028791775734088
 GameObject:
   m_ObjectHideFlags: 0

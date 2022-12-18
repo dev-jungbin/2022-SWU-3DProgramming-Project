@@ -20,7 +20,7 @@ public class PlayerCtrl : MonoBehaviour
     Animation anim;
 
     // 점프하는 힘을 저장하기 위한 변수
-    public float power = 10;
+    public float power = 0.5f;
 
     // 강체를 저장할 변수
     Rigidbody rb;
