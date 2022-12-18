@@ -52,6 +52,7 @@
      <Compile Include="Assets/Player/PlayerCtrl.cs" />
      <Compile Include="Assets/Sources/EffectExamples/Shared/Scripts/GunAim.cs" />
      <Compile Include="Assets/Scripts/GameManager.cs" />
+     <Compile Include="Assets/Scenes/Intro/IntroGameManager.cs" />
      <None Include="Assets/Sources/Free Voxel Christmas Pack/Documentation.txt" />
      <None Include="Assets/Sources/Santa Claus/readme.txt" />
      <None Include="Assets/Sources/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader" />

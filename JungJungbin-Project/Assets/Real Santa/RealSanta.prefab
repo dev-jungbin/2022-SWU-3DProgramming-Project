@@ -2716,7 +2716,7 @@ GameObject:
   - component: {fileID: -3547556618860988753}
   m_Layer: 7
   m_Name: RealSanta
-  m_TagString: Santa
+  m_TagString: REALSANTA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

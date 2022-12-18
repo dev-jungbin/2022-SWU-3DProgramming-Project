@@ -159,11 +159,17 @@ public class FakeSantaAI : MonoBehaviour
                     animator.SetBool("isRunning", false);
                     break;
                 case State.DIE:
+                    // 사망 처리
                     isDie = true;
+                    // killCount 횟수 증가 함수 호출
+                    GameObject.Find("GameManager").GetComponent<GameManager>().AddKillCount();
                     // 순찰 정지
                     moveAgent.Stop();
+                    // 사망 애니메이션 실행
                     animator.SetTrigger("isDie");
+                    // Collider 무효화
                     GetComponent<CapsuleCollider>().enabled = false;
+                    
                     break;
             }
         }
@@ -175,7 +181,7 @@ public class FakeSantaAI : MonoBehaviour
         if (other.collider.tag == "BULLET") {
             // 총알 삭제
             Destroy(other.gameObject);
-            // 적 캐릭터의 상태를 DIE로 변경
+            // 캐릭터의 상태를 DIE로 변경
             state = State.DIE;
         }
     }

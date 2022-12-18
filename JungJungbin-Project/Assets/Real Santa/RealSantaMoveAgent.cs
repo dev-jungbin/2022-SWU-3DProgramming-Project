@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class RealSantaMoveAgent : MonoBehaviour
 {
+
     // 순찰 지점들을 저장하기 위한 List 타입의 변수
     public List<Transform> wayPoints;
 
@@ -14,10 +15,16 @@ public class RealSantaMoveAgent : MonoBehaviour
     // NavMeshAgent 컴포넌트를 저장할 변수
     NavMeshAgent agent;
 
+    // Animator 컴포넌트를 저장할 변수
+    Animator animator;
+
     void Start()
     {
         // NavMeshAgent 컴포넌트를 추출 후 변수에 저장
         agent = GetComponent<NavMeshAgent>();
+
+        // Animator 컴포넌트 추출
+        animator = GetComponent<Animator>();
 
         // 하이러키 뷰의 WayPointGroup 게임오브젝트 추출
         GameObject group = GameObject.Find("WayPointGroup");
@@ -82,5 +89,31 @@ public class RealSantaMoveAgent : MonoBehaviour
 
         // Shuffle된 인덱스 반환
         return _list;
+    }
+
+    // 진짜 산타가 총에 맞았을 경우
+    void OnCollisionEnter(Collision other) {
+        // 총알이 들어왔을 경우
+        if (other.collider.tag == "BULLET") {
+            // 총알 삭제
+            Destroy(other.gameObject);
+            // 순찰 정지
+            Stop();
+            // 사망 애니메이션 실행
+            animator.SetTrigger("isDie");
+            // Collider 무효화
+            GetComponent<CapsuleCollider>().enabled = false;
+            // game over 함수 호출
+            GameObject.Find("GameManager").GetComponent<GameManager>().RealSantaDie();
+        }
+    }
+
+    // 순찰을 정지시키는 함수
+    public void Stop() {
+        // 정지
+        agent.isStopped = true;
+
+        // 바로 정지하기 위해 속도를 0으로 설정
+        agent.velocity = Vector3.zero;
     }
 }
